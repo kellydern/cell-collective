@@ -1,0 +1,263 @@
+.intro {
+	background-image: url("../img/header-image.jpg");
+	background-repeat: no-repeat;
+}
+
+.header-border {
+    padding: 0 5px;
+    border-top: 5px solid #0F6ACE;
+    height: 52px;
+}
+
+/* Fonts */ 
+
+h1 {
+	padding: 160px 0px 60px 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 56px;
+	color: #FFFFFF;
+	line-height: 67px;
+	text-align: center;
+}
+
+h2 {
+	padding: 80px 0px 0px 60px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 48px;
+	color: #0F6ACE;
+	text-align: center;
+}
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #798991;
+	line-height: 22px;
+}
+
+/* links */
+
+.white-link {
+	padding: 0 5px;
+}
+
+.red-link {
+	padding: 0 5px;
+}
+
+a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 22px;
+}
+/* unvisited link */
+a:link {
+	color: #FFFFFF;
+}
+/* visited link */
+a:visited {
+    color: #ea5e42;
+}
+
+/* mouse over link */
+a:hover {
+    color: #0F6ACE;
+}
+
+/* selected link */
+a:active {
+    color: #ea5e42;
+}
+
+/* nav */
+.nav {
+	display: block;
+}
+
+.cellcollective-logo {
+	padding: 10px 0px;
+}
+
+.header-right {
+	display: inline-block;
+	float: right;
+}
+
+/* Search bar */
+.search-bar {
+	padding-bottom: 74px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.search {
+	display: inline-block;
+	margin: 0px auto;
+}
+
+.search-field {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #798991;
+	line-height: 22px;
+	background: rgba(255,255,255,0.83);
+	border-radius: 100px;
+	padding: 15px 0px;
+	width: 540px;
+}
+
+input[type="search"] {
+	color: #798991;
+    margin-left: 10px;
+}
+
+.home-search-btn {
+	background: #EA5E42;
+	border: 3px solid #F1623C;
+	border-radius: 100px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 22px;
+	padding: 15px 0px;
+	width: 220px;
+}
+
+.container {
+	margin: 0px auto;
+    overflow: hidden;
+    width: 960px;
+    max-width: 100%;
+}
+
+/*NUMBERS */
+
+.numbers {
+	padding: 80px 0px;
+	text-align: center;
+	display: inline-block;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-block;
+}
+
+.circle {
+	border: 3px solid #3CA44C;
+	padding-bottom: 20px;
+}
+
+.large-number {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 64px;
+	color: #0F6ACE;
+	padding-bottom: 10px;
+}
+
+.small-number {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #798991;
+	line-height: 22px;
+}
+
+/* How works */
+.how-works {
+	background-color: #F7F6F6;
+}
+
+.icon {
+	padding-right: 20px;
+}
+
+.how-content {
+	display: inline-block;
+	width: 420px;
+	padding-bottom: 60px;
+}
+
+.how-header {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	color: #0F6ACE;
+	display: block;
+	padding-bottom: 20px;
+
+}
+
+.how-body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #798991;
+	line-height: 22px;
+	display: inline-block;
+}
+
+/* Contact Us */
+
+.contact-us {
+	background-image: url("../img/contact-photo.jpg");
+	background-repeat: no-repeat;
+	padding-bottom: 300px;
+}
+
+.contact-us h2, p {
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.contactus-content {
+	max-width: 300px;
+}
+
+/* footer */
+
+.footer {
+	padding: 60px 0px 60px 0px;
+}
+
+.footer-header {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	color: #0F6ACE;
+	display: block;
+	padding-bottom: 20px;
+}
+
+.footer-content {
+	text-align: center;
+	padding-right: 46px;
+}
+
+.footer-body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #798991;
+	line-height: 22px;
+	padding-bottom: 10px;
+}
+
+.terms {
+	padding: 200px 0px 60px 0px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.terms li {
+	display: inline-block;
+	padding: 0px 48px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #798991;
+}
+
+
