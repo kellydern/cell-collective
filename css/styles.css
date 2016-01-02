@@ -1,3 +1,9 @@
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
 .intro {
 	background-image: url("../img/header-image.jpg");
 	background-repeat: no-repeat;
@@ -80,7 +86,7 @@ a:active {
 }
 
 .cellcollective-logo {
-	padding: 10px 0px;
+	margin-top: -10px;
 }
 
 .header-right {
@@ -177,9 +183,12 @@ input[type="search"] {
 	display: inline-block;
 }
 
-ul {
+
+.numbers ul {
 	list-style-type: none;
 	display: inline-block;
+	margin: 0;
+	padding: 0px 20px;
 }
 
 .circle {
@@ -191,7 +200,6 @@ ul {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 64px;
 	color: #0F6ACE;
-	padding-bottom: 10px;
 }
 
 .small-number {
@@ -205,10 +213,17 @@ ul {
 /* How works */
 .how-works {
 	background-color: #F7F6F6;
+	text-align: center;
 }
 
 .icon {
-	padding-right: 20px;
+	padding: 0px 20px;
+	margin: 0;
+}
+
+.how-icon {
+	margin: 0;
+	padding: 0;
 }
 
 .how-content {
@@ -216,7 +231,7 @@ ul {
 	width: 40%;
 	padding-bottom: 80px;
 	text-align: center;
-	margin: 0px auto;
+	margin: 0px 10px;
 }
 
 .how-header {
@@ -226,7 +241,7 @@ ul {
 	color: #0F6ACE;
 	display: block;
 	padding-bottom: 20px;
-
+	margin: 10px 0px;
 }
 
 .how-body {
@@ -259,8 +274,8 @@ ul {
 .footer {
 	padding: 60px 0px 60px 0px;
 	text-align: center;
-	position: relative;
 	margin: 0px auto;
+	width: 100%;
 }
 
 .footer-header {
@@ -268,18 +283,18 @@ ul {
 	font-weight: 300;
 	font-size: 32px;
 	color: #0F6ACE;
-	display: block;
 	padding-bottom: 20px;
 	margin: 0;
 	border-collapse:collapse;
 }
 
-
-.footer-content {
-	margin: 0px;
+ul.footer-content {
+	margin: 0px auto;
 	text-align: center;
 	padding: 18px;
-	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	display: -moz-inline-stack;
 }
 
 .terms {
@@ -292,10 +307,9 @@ ul.footer-content li a {
 	color: #798991;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
-	line-height: 22px;
 	padding-bottom: 10px;
 	display: block;
-	column-width: 15em;
+	text-align: center;
 }
 
 ul.footer-content a:hover {
@@ -304,11 +318,6 @@ ul.footer-content a:hover {
 
 ul.footer-content a {
 	padding-bottom: 10px;
-}
-
-ul.footer-content {
-	display: inline-block; 
-	vertical-align: top;
 }
 
 .terms li {
@@ -335,11 +344,11 @@ ul.footer-content {
 
 /* Portrait and Landscape */
 @media (min-width: 320px) and (max-width: 480px) {
-	.cellcollective-logo {
+		.cellcollective-logo {
 		text-align: center;
-		float: none;
 		margin: 0px auto;
-		padding: 0px 10px;
+		max-width: 90%;
+		padding: 0px 20px;
 	}
 
 	h1 {
@@ -349,9 +358,18 @@ ul.footer-content {
 	}
 	/*header */
 	.search-field {
-		max-width: 100%;
-		width: 300px;
+		max-width: 90%;
+		text-align: center;
 		margin: 0px auto;
+	}
+
+	.search {
+		text-align: center;
+		display: block;
+	}
+
+	.search-bar {
+		padding-bottom: 40px;
 	}
 
 	.home-search-btn {
@@ -377,22 +395,27 @@ ul.footer-content {
 	}
 
 	.numbers {
+		padding: 40px 0px;
 		display: block;
-		text-align: center;
+		margin: 0px auto;
 	}
 
-	ul {
-		display: block;
-		list-style-type: none;
-		text-align: center;
+	.large-number {
+		font-size: 2.7em;
+	}
+
+	.how-works {
+		padding-bottom: 40px;
 	}
 
 	.how-content {
 		text-align: center;
-		padding: 10px 0px;
-		width: 90%;
-		display: block;
+    	padding: 10px 0px;
+   		margin: 0px auto;
+    	width: 100%;
+    	display: block;
 	}
+
 	.how-body {
 		max-width: 90%;
 		width: 375px;
@@ -400,7 +423,6 @@ ul.footer-content {
 
 	.icon {
 		padding: 10px 0px;
-		max-width: 80%;
 	}
 
 	.contact-us {
@@ -419,12 +441,17 @@ ul.footer-content {
 
 	/* footer */
 
+	.footer {
+		padding: 40px 0px;
+	}
+
 	ul.footer-content {
     margin: 0px;
     text-align: center;
     position: relative;
     display: block;
-}
+	}
+
 	.terms {
 		padding: 20px 0px;
 	}
@@ -436,16 +463,18 @@ ul.footer-content {
 }
 
 
+
+
 /* ----------- iPhone 5 and 5S ----------- */
 
 /* Portrait and Landscape */
-@media and (min-width: 320px) and (max-width: 568px) {
-	
+@media (min-width: 320px) and (max-width: 568px) {
+
 	.cellcollective-logo {
 		text-align: center;
-		float: none;
 		margin: 0px auto;
-		padding: 0px 30px;
+		max-width: 90%;
+		padding: 0px 20px;
 	}
 
 	h1 {
@@ -455,9 +484,13 @@ ul.footer-content {
 	}
 	/*header */
 	.search-field {
-		max-width: 90%;
-		width: 350px;
+		width: 320px;
+		text-align: center;
 		margin: 0px auto;
+	}
+
+	.search-bar {
+		padding-bottom: 40px;
 	}
 
 	.home-search-btn {
@@ -482,16 +515,28 @@ ul.footer-content {
 		padding: 10px 0px;
 	}
 
-	ul {
+	.numbers {
+		padding: 40px 0px;
 		display: block;
+		margin: 0px auto;
+	}
+
+	.large-number {
+		font-size: 2.7em;
+	}
+
+	.how-works {
+		padding-bottom: 40px;
 	}
 
 	.how-content {
 		text-align: center;
-		padding: 10px 0px;
-		width: 90%;
-		display: block;
+    	padding: 10px 0px;
+   		margin: 0px auto;
+    	width: 100%;
+    	display: block;
 	}
+
 	.how-body {
 		max-width: 90%;
 		width: 375px;
@@ -499,7 +544,6 @@ ul.footer-content {
 
 	.icon {
 		padding: 10px 0px;
-		max-width: 80%;
 	}
 
 	.contact-us {
@@ -518,12 +562,17 @@ ul.footer-content {
 
 	/* footer */
 
+	.footer {
+		padding: 40px 0px;
+	}
+
 	ul.footer-content {
     margin: 0px;
     text-align: center;
     position: relative;
     display: block;
-}
+	}
+
 	.terms {
 		padding: 20px 0px;
 	}
@@ -532,7 +581,6 @@ ul.footer-content {
 		display: block;
 		padding: 10px 0px;
 	}
-
 }
 
 /* ----------- iPhone 6 ----------- */
@@ -559,6 +607,10 @@ ul.footer-content {
 		margin: 0px auto;
 	}
 
+	.search-bar {
+		padding-bottom: 40px;
+	}
+
 	.home-search-btn {
 		margin: 15px 0px;
 	}
@@ -581,14 +633,20 @@ ul.footer-content {
 		padding: 10px 0px;
 	}
 
-	ul {
-		display: block;
+	.numbers {
+		padding: 40px 0px;
+	}
+
+	.numbers ul {
+		padding: 10px 30px;
+    	margin: 0px;
+    	text-align: center;
 	}
 
 	.how-content {
 		text-align: center;
 		padding: 10px 0px;
-		width: 90%;
+		width: 100%;
 		display: block;
 	}
 	.how-body {
@@ -598,7 +656,6 @@ ul.footer-content {
 
 	.icon {
 		padding: 10px 0px;
-		max-width: 80%;
 	}
 
 	.contact-us {
@@ -616,6 +673,10 @@ ul.footer-content {
 	}
 
 	/* footer */
+
+	.footer {
+		padding: 40px 0px;
+	}
 
 	ul.footer-content {
     margin: 0px;
@@ -659,6 +720,10 @@ ul.footer-content {
 		margin: 0px auto;
 	}
 
+	.search-bar {
+		padding-bottom: 40px;
+	}
+
 	.home-search-btn {
 		margin: 15px 0px;
 	}
@@ -681,14 +746,20 @@ ul.footer-content {
 		padding: 10px 0px;
 	}
 
-	ul {
-		display: block;
+	.numbers {
+		padding: 40px 0px;
+	}
+
+	.numbers ul {
+		padding: 10px 30px;
+    	margin: 0px;
+    	text-align: center;
 	}
 
 	.how-content {
 		text-align: center;
 		padding: 10px 0px;
-		width: 90%;
+		width: 100%;
 		display: block;
 	}
 	.how-body {
@@ -698,7 +769,6 @@ ul.footer-content {
 
 	.icon {
 		padding: 10px 0px;
-		max-width: 80%;
 	}
 
 	.contact-us {
@@ -717,6 +787,10 @@ ul.footer-content {
 
 	/* footer */
 
+	.footer {
+		padding: 40px 0px;
+	}
+
 	ul.footer-content {
     margin: 0px;
     text-align: center;
@@ -732,7 +806,6 @@ ul.footer-content {
 		display: block;
 		padding: 10px 0px;
 	}
-
 }
 
 
