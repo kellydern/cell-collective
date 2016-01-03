@@ -277,12 +277,19 @@ input[type="search"] {
 	margin: 0px auto;
 }
 
+.row {
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 20px;
+}
+
 .footer-header {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 32px;
 	color: #0F6ACE;
 	padding-bottom: 20px;
+	vertical-align: top;
 	margin: 0;
 }
 
