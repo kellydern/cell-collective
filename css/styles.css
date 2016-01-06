@@ -187,6 +187,10 @@ input[type="search"] {
 	border: 3px solid #C64930;
 }
 
+.contact-btn {
+	margin: 0px 0px;
+}
+
 .container {
 	margin: 0px auto;
     overflow: hidden;
@@ -390,6 +394,10 @@ input[type="search"] {
 		padding-bottom: 40px;
 	}
 
+	.contact-btn {
+	margin: 0px auto;
+}
+
 	.subhead {
 		font-size: 1.2em;
 	}
@@ -575,6 +583,10 @@ input[type="search"] {
 		margin: 0px auto;
 	}
 
+	.contact-btn {
+		margin: 0px auto;
+	}
+
 	input[type="search"] {
 	color: #798991;
     text-align: center;
@@ -706,6 +718,9 @@ input[type="search"] {
 	.home-search-btn {
 		margin: 0px auto;
 	}
+	.contact-btn {
+		margin: 0px auto;
+	}
 
 	input[type="search"] {
 	color: #798991;
@@ -830,6 +845,10 @@ input[type="search"] {
 	}
 
 	.home-search-btn {
+		margin: 0px auto;
+	}
+
+	.contact-btn {
 		margin: 0px auto;
 	}
 
