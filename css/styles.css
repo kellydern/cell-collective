@@ -13,19 +13,19 @@ ul, li {
 .header-border {
     padding: 0 5px;
     border-top: 5px solid #0F6ACE;
-    height: 52px;
 }
 
 /* Fonts */ 
 
 h1 {
-	padding: 130px 0px 15px 0px;
+	padding: 130px 0px 0px 0px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	font-size: 48px;
 	color: #FFFFFF;
 	line-height: 67px;
 	text-align: center;
+	margin: 0px auto;
 }
 
 h2 {
@@ -35,6 +35,15 @@ h2 {
 	font-size: 48px;
 	color: #0F6ACE;
 	text-align: center;
+}
+
+.subhead {
+	font-size: 28px;
+	font-weight: 300; 
+	text-align: center;
+	color: #FFFFFF;
+	padding: 20px 0px;
+	margin: 0px auto;
 }
 
 
@@ -83,6 +92,7 @@ a:active {
 /* nav */
 .nav {
 	display: block;
+	margin-top: 2rem;
 }
 
 .cellcollective-logo {
@@ -123,6 +133,13 @@ input[type="search"] {
     padding-left: 15px;
 }
 
+
+.subhead-container {
+	padding-bottom: 6rem;
+	display: block;
+	margin: 0px auto;
+}
+
 .home-search-btn {
 	background: #EA5E42;
 	border: 3px solid #F1623C;
@@ -130,9 +147,11 @@ input[type="search"] {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	color: #FFFFFF;
-	line-height: 22px;
 	padding: 15px 0px;
+	display: block;
 	width: 220px;
+	margin: 0px auto;
+	text-align: center;
 }
 
 ::-webkit-input-placeholder {
@@ -351,8 +370,9 @@ input[type="search"] {
 
 	h1 {
 		padding: 20px 0px 10px 0px;
-		font-size: 2.5em;
+		font-size: 2.2em;
 		line-height: 1.35em;
+		margin: 0px auto;
 	}
 	/*header */
 	.search-field {
@@ -370,8 +390,22 @@ input[type="search"] {
 		padding-bottom: 40px;
 	}
 
+	.subhead {
+		font-size: 1.2em;
+	}
+
+	.subhead-container {
+		padding-bottom: 6rem;
+		display: block;
+		margin: 0px auto;
+	}
+
 	.home-search-btn {
-		margin: 15px 0px;
+		margin: 0px auto;
+		display: block;
+		width: 220px;
+		margin: 0px auto;
+		text-align: center;
 	}
 
 	input[type="search"] {
@@ -510,9 +544,16 @@ input[type="search"] {
 
 	h1 {
 		padding: 20px 0px 10px 0px;
-		font-size: 2.5em;
+		font-size: 1.7em;
 		line-height: 1.35em;
+		margin: 0px auto;
 	}
+
+
+	.subhead {
+		font-size: 1.2em;
+	}
+
 	/*header */
 	.search-field {
 		width: 320px;
@@ -524,8 +565,14 @@ input[type="search"] {
 		padding-bottom: 40px;
 	}
 
+	.subhead-container {
+		padding-bottom: 6rem;
+		display: block;
+		margin: 0px auto;
+	}
+
 	.home-search-btn {
-		margin: 15px 0px;
+		margin: 0px auto;
 	}
 
 	input[type="search"] {
@@ -631,8 +678,13 @@ input[type="search"] {
 
 	h1 {
 		padding: 20px 0px 10px 0px;
-		font-size: 2.5em;
+		font-size: 2.1em;
 		line-height: 1.35em;
+		margin: 0px auto;
+	}
+
+	.subhead {
+		font-size: 1.2em;
 	}
 	/*header */
 	.search-field {
@@ -645,8 +697,14 @@ input[type="search"] {
 		padding-bottom: 40px;
 	}
 
+	.subhead-container {
+		padding-bottom: 6rem;
+		display: block;
+		margin: 0px auto;
+	}
+
 	.home-search-btn {
-		margin: 15px 0px;
+		margin: 0px auto;
 	}
 
 	input[type="search"] {
@@ -745,9 +803,15 @@ input[type="search"] {
 
 	h1 {
 		padding: 20px 0px 10px 0px;
-		font-size: 2.5em;
+		font-size: 2.1em;
 		line-height: 1.35em;
+		margin: 0px auto;
 	}
+
+	.subhead {
+		font-size: 1.2em;
+	}
+		
 	/*header */
 	.search-field {
 		max-width: 90%;
@@ -759,8 +823,14 @@ input[type="search"] {
 		padding-bottom: 40px;
 	}
 
+	.subhead-container {
+		padding-bottom: 6rem;
+		display: block;
+		margin: 0px auto;
+	}
+
 	.home-search-btn {
-		margin: 15px 0px;
+		margin: 0px auto;
 	}
 
 	input[type="search"] {
@@ -854,8 +924,14 @@ input[type="search"] {
     	max-width: 100%;
 	}
 
+	.subhead-container {
+		padding-bottom: 6rem;
+		display: block;
+		margin: 0px auto;
+	}
+
 	.home-search-btn {
-		margin: 20px 0px;
+		margin: 0px auto;
 	}
 
 	.numbers {
