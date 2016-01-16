@@ -1,6 +1,6 @@
 
 .numbers {
-	text-align: center;
+	@extend %centered;
 	padding: 80px 0px;
 }
 
@@ -24,7 +24,7 @@
 
 .small-number {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+	font-weight: $font-weight-light;
 	font-size: 18px;
 	color: #798991;
 	line-height: 22px;

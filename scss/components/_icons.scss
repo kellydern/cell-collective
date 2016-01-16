@@ -1,6 +1,10 @@
 .icon {
 	padding: 0px 20px;
 	margin: 0;
+
+	@media #{$brk-narrow} {
+		padding: 10px 0px;
+	}
 }
 
 .how-icon {

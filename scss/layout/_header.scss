@@ -1,5 +1,5 @@
 .intro {
-	background-image: url("../img/header-illustration.svg");
+	background-image: url('#{$path-img}/header-illustration.svg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -18,6 +18,13 @@
 .cellcollective-logo {
 	margin-top: -10px;
 	width: 270px;
+
+	@media #{$brk-narrow} {
+		text-align: center;
+		margin: 0px auto;
+		max-width: 90%;
+		padding: 0px 20px;
+	}
 }
 
 .header-right {
@@ -34,18 +41,6 @@
 .search {
 	display: inline-block;
 	margin: 0px auto;
-}
-
-.search-field {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-	color: #798991;
-	line-height: 22px;
-	background: rgba(255,255,255,0.83);
-	border-radius: 100px;
-	padding: 15px 0px;
-	width: 540px;
-	border: none;
 }
 
 input[type="search"] {

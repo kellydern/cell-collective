@@ -1,12 +1,14 @@
+
+
 .home-search-btn {
 	background: #EA5E42;
 	border: 3px solid $red;
 	border-radius: 100px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: $stack-sans-serif; 
 	font-size: 18px;
 	color: $white;
-	padding: 15px 0px;
 	display: block;
+	padding: 15px 0px;
 	width: 220px;
 	margin: 0px auto;
 	@extend %centered;

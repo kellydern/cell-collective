@@ -12,3 +12,19 @@ $color-sec: $blue;
 $color-text: $grey;
 $color-text-links: $light-grey;
 
+// Font stacks
+
+$stack-sans-serif:'Open Sans', sans-serif;
+$font-weight-regular: 300;
+$font-weight-light:	400;
+$font-weight-bold:	600;
+
+// Asset paths 
+
+$path-img: '../img';
+
+// Media query breakpoints 
+
+$brk-narrow : '(max-width: 480px)';
+$brk-wide	: '(max-wdith: 1024px)';
+

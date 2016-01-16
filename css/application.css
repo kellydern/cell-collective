@@ -6,15 +6,14 @@
   padding: 0 5px; }
 
 a {
-  /* visited link */
   /* mouse over link */
   /* selected link */ }
   a:link {
     color: #FFFFFF;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    text-decoration: none;
-    font-size: 18px; }
+    font-size: 18px;
+    text-decoration: none; }
   a:visited {
     color: #ea5e42; }
   a:hover {
@@ -43,6 +42,12 @@ a {
 .cellcollective-logo {
   margin-top: -10px;
   width: 270px; }
+  @media (max-width: 480px) {
+    .cellcollective-logo {
+      text-align: center;
+      margin: 0px auto;
+      max-width: 90%;
+      padding: 0px 20px; } }
 
 .header-right {
   display: inline-block;
@@ -56,17 +61,6 @@ a {
 .search {
   display: inline-block;
   margin: 0px auto; }
-
-.search-field {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  color: #798991;
-  line-height: 22px;
-  background: rgba(255, 255, 255, 0.83);
-  border-radius: 100px;
-  padding: 15px 0px;
-  width: 540px;
-  border: none; }
 
 input[type="search"] {
   color: #798991;
@@ -99,10 +93,11 @@ input[type="search"] {
   vertical-align: top; }
 
 .footer-content a {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  color: #798991; }
+  font-size: 1em;
+  line-height: 1.5;
+  color: #798991;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
 
 .footer-content li a:hover {
   color: #0F6ACE; }
@@ -154,7 +149,6 @@ input[type="search"] {
   max-width: 300px; }
 
 .numbers {
-  text-align: center;
   padding: 80px 0px; }
 
 .numbers ul {
@@ -175,7 +169,7 @@ input[type="search"] {
   color: #798991;
   line-height: 22px; }
 
-.how-works, .how-content, .home-search-btn {
+.how-works, .how-content, .numbers, .home-search-btn, h1, h2 {
   text-align: center; }
 
 .cirle {
@@ -192,11 +186,11 @@ input[type="search"] {
   background: #EA5E42;
   border: 3px solid #F1623C;
   border-radius: 100px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #FFFFFF;
-  padding: 15px 0px;
   display: block;
+  padding: 15px 0px;
   width: 220px;
   margin: 0px auto; }
 
@@ -216,24 +210,28 @@ input[type="search"] {
 .icon {
   padding: 0px 20px;
   margin: 0; }
+  @media (max-width: 480px) {
+    .icon {
+      padding: 10px 0px; } }
 
 .how-icon {
   margin: 0;
   padding: 0; }
 
 .how-header {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  font-size: 32px;
-  color: #0F6ACE;
+  font-size: 2em;
+  line-height: 300;
+  font-weight: #0F6ACE;
+  font-family: "Open Sans", sans-serif;
   display: block;
   padding-bottom: 20px;
   margin: 10px 0px; }
 .how-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 1em;
+  line-height: 1.375em;
+  font-weight: 300;
   color: #798991;
-  line-height: 22px;
+  font-family: "Open Sans", sans-serif;
   display: inline-block; }
 
 ul, li {
@@ -242,36 +240,39 @@ ul, li {
   list-style-type: none; }
 
 h1 {
-  padding: 130px 0px 0px 0px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  font-size: 48px;
-  color: #FFFFFF;
+  font-size: 3em;
   line-height: 67px;
-  text-align: center;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 130px 0px 0px 0px;
+  font-family: "Open Sans", sans-serif;
   margin: 0px auto; }
+  @media brk-narrow {
+    h1 {
+      padding: 20px 0px 10px 0px;
+      margin: 0px auto; } }
 
 h2 {
+  font-size: 3em;
+  line-height: 400;
+  font-weight: #0F6ACE;
   padding: 80px 0px 0px 0px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 48px;
-  color: #0F6ACE;
-  text-align: center; }
+  font-family: "Open Sans", sans-serif; }
 
 .subhead {
-  font-size: 24px;
-  font-weight: 300;
+  font-size: 1.5em;
+  line-height: 300;
+  font-weight: #FFFFFF;
   text-align: center;
-  color: #FFFFFF;
   padding: 20px 0px;
   margin: 0px auto; }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  color: #798991;
-  line-height: 22px; }
+  font-size: 1em;
+  line-height: 1.375em;
+  font-weight: 300;
+  color: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif; }
 
 .contact-us h2, p {
   color: #FFFFFF;

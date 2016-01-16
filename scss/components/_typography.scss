@@ -1,21 +1,17 @@
 .how {
 	&-header {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 32px;
-	color: #0F6ACE;
-	display: block;
-	padding-bottom: 20px;
-	margin: 10px 0px;
+		@include text(2em, 300, $color-sec);
+		font-family: $stack-sans-serif;
+		display: block;
+		padding-bottom: 20px;
+		margin: 10px 0px;
 }
 
-&-body {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-	color: #798991;
-	line-height: 22px;
-	display: inline-block;
-	}
+	&-body {
+		@include text(1em, 1.375em, 300, $color-text-links);
+		font-family: $stack-sans-serif;
+		display: inline-block;
+		}
 }
 
 ul, li {
@@ -26,42 +22,39 @@ ul, li {
 
 
 h1 {
+	@include text(3em, 67px, 600, $color-prim);
 	padding: 130px 0px 0px 0px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	font-size: 48px;
-	color: $white;
-	line-height: 67px;
-	text-align: center;
+	font-family: $stack-sans-serif;
+	@extend %centered;
 	margin: 0px auto;
+
+	@media #{brk-narrow} {
+		padding: 20px 0px 10px 0px;
+		margin: 0px auto;
+		}
 }
 
 h2 {
+	@include text(3em, 400, $color-sec);
 	padding: 80px 0px 0px 0px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	font-size: 48px;
-	color: #0F6ACE;
-	text-align: center;
+	font-family: $stack-sans-serif;
+	@extend %centered;
 }
 
 .subhead {
-	font-size: 24px;
-	font-weight: 300; 
+	@include text(1.5em, 300, $white); 
 	text-align: center;
-	color: $white;
 	padding: 20px 0px;
 	margin: 0px auto;
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-	color: #798991;
-	line-height: 22px;
+	@include text (1em, 1.375em, 300, $stack-sans-serif);
+	font-family: $stack-sans-serif;
 }
 
 .contact-us h2, p {
 	color: $white;
 	text-align: left;
 }
+

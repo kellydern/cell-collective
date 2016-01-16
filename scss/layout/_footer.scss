@@ -24,10 +24,9 @@
 }
 
 .footer-content a {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	font-size: 18px;
-	color: $color-text-links;
+	@include text(1em, 1.5, $color: $color-text-links);
+	font-family: $stack-sans-serif;
+	font-weight: $font-weight-light;
 }
 
 .footer-content li a:hover {
