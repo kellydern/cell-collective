@@ -1,0 +1,17 @@
+// Center text
+
+%centered {
+	text-align: center;
+}
+
+%circle {
+	border: 3px solid #3CA44C;
+	padding-bottom: 20px;
+}
+
+%btn-content {
+	color: $color-text-links;
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 20px;
+	text-overflow: ellipsis; 
+}
