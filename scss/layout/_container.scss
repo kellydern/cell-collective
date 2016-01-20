@@ -1,0 +1,35 @@
+.container {
+	margin: 0px auto;
+    overflow: hidden;
+    width: 960px;
+    max-width: 100%;
+}
+
+.how-works {
+	@extend %centered;
+	background-color: #F7F6F6;
+}
+
+.how-container {
+	margin: 10px 0px;
+	position:relative;
+}
+
+.how-content {
+	display: inline-block;
+	width: 40%;
+	padding-bottom: 80px;
+	@extend %centered;
+	margin: 0px 10px;
+}
+
+.contact-us {
+	background-image: url('#{$path-img}/contact-photo.jpg');
+	background-repeat: no-repeat;
+	padding-bottom: 300px;
+	background-size: cover;
+}
+
+.contactus-content {
+	max-width: 300px;
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD:css/styles.css
 ul, li {
 	margin: 0;
 	padding: 0;
@@ -370,30 +371,12 @@ input[type="search"] {
 
 /* Portrait and Landscape */
 
+=======
+>>>>>>> origin/initial-design:scss/_style.scss
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait and Landscape */
 @media (min-width: 320px) and (max-width: 480px) {
-		.cellcollective-logo {
-		text-align: center;
-		margin: 0px auto;
-		max-width: 90%;
-		padding: 0px 20px;
-	}
-
-	h1 {
-		padding: 20px 0px 10px 0px;
-		font-size: 2.2em;
-		line-height: 1.35em;
-		margin: 0px auto;
-	}
-	/*header */
-	.search-field {
-		max-width: 90%;
-		text-align: center;
-		margin: 0px auto;
-	}
-
 	.search {
 		text-align: center;
 		display: block;
@@ -502,9 +485,7 @@ input[type="search"] {
 		width: 375px;
 	}
 
-	.icon {
-		padding: 10px 0px;
-	}
+	
 
 	.contact-us {
 		text-align: center;

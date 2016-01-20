@@ -1,0 +1,41 @@
+
+/* links */
+
+.white-link {
+	padding: 0 5px;
+}
+
+.red-link {
+	padding: 0 5px;
+}
+
+a {
+	
+	&:link {
+	color: $white;
+	font-family: $stack-sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+&:visited {
+    color: #ea5e42;
+}
+
+/* mouse over link */
+&:hover {
+    color: #0F6ACE;
+}
+
+/* selected link */
+&:active {
+    color: #ea5e42;
+	}
+}
+
+/* nav */
+.nav {
+	display: block;
+	margin-top: 2rem;
+}

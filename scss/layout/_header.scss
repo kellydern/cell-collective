@@ -1,0 +1,58 @@
+.intro {
+	background-image: url('#{$path-img}/header-illustration.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header-color {
+	background-color: #18677a;
+	opacity: 0.9;
+}
+
+.header-border {
+    padding: 0 5px;
+    border-top: 5px solid #0F6ACE;
+}
+
+
+.cellcollective-logo {
+	margin-top: -10px;
+	width: 270px;
+
+	@media #{$brk-narrow} {
+		text-align: center;
+		margin: 0px auto;
+		max-width: 90%;
+		padding: 0px 20px;
+	}
+}
+
+.header-right {
+	display: inline-block;
+	float: right;
+}
+
+.search-bar {
+	text-align: center; 
+	padding-bottom: 150px;
+	margin: 0px auto;
+}
+
+.search {
+	display: inline-block;
+	margin: 0px auto;
+}
+
+input[type="search"] {
+	color: #798991;
+    padding-left: 15px;
+}
+
+
+.subhead-container {
+	padding-bottom: 10rem;
+	display: block;
+	margin: 0px auto;
+}
+
+

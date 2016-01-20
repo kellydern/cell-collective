@@ -1,0 +1,281 @@
+/* links */
+.white-link {
+  padding: 0 5px; }
+
+.red-link {
+  padding: 0 5px; }
+
+a {
+  /* mouse over link */
+  /* selected link */ }
+  a:link {
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none; }
+  a:visited {
+    color: #ea5e42; }
+  a:hover {
+    color: #0F6ACE; }
+  a:active {
+    color: #ea5e42; }
+
+/* nav */
+.nav {
+  display: block;
+  margin-top: 2rem; }
+
+.intro {
+  background-image: url("../img/header-illustration.svg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.header-color {
+  background-color: #18677a;
+  opacity: 0.9; }
+
+.header-border {
+  padding: 0 5px;
+  border-top: 5px solid #0F6ACE; }
+
+.cellcollective-logo {
+  margin-top: -10px;
+  width: 270px; }
+  @media (max-width: 480px) {
+    .cellcollective-logo {
+      text-align: center;
+      margin: 0px auto;
+      max-width: 90%;
+      padding: 0px 20px; } }
+
+.header-right {
+  display: inline-block;
+  float: right; }
+
+.search-bar {
+  text-align: center;
+  padding-bottom: 150px;
+  margin: 0px auto; }
+
+.search {
+  display: inline-block;
+  margin: 0px auto; }
+
+input[type="search"] {
+  color: #798991;
+  padding-left: 15px; }
+
+.subhead-container {
+  padding-bottom: 10rem;
+  display: block;
+  margin: 0px auto; }
+
+/* footer */
+.footer {
+  text-align: center;
+  padding: 80px 0px 20px 0px; }
+
+.footer ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px auto;
+  padding: 0px 20px;
+  vertical-align: top; }
+
+.footer-header {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  margin: 0;
+  color: #0F6ACE;
+  padding-bottom: 20px;
+  vertical-align: top; }
+
+.footer-content a {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #798991;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400; }
+
+.footer-content li a:hover {
+  color: #0F6ACE; }
+
+.terms {
+  text-align: center;
+  padding: 200px 0px 60px 0px;
+  margin: 0 auto; }
+
+.terms li {
+  display: inline-block;
+  padding: 0px 48px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #798991; }
+
+.terms a {
+  color: #798991; }
+
+.terms a:hover {
+  color: #0F6ACE; }
+
+.container {
+  margin: 0px auto;
+  overflow: hidden;
+  width: 960px;
+  max-width: 100%; }
+
+.how-works {
+  background-color: #F7F6F6; }
+
+.how-container {
+  margin: 10px 0px;
+  position: relative; }
+
+.how-content {
+  display: inline-block;
+  width: 40%;
+  padding-bottom: 80px;
+  margin: 0px 10px; }
+
+.contact-us {
+  background-image: url("../img/contact-photo.jpg");
+  background-repeat: no-repeat;
+  padding-bottom: 300px;
+  background-size: cover; }
+
+.contactus-content {
+  max-width: 300px; }
+
+.numbers {
+  padding: 80px 0px; }
+
+.numbers ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px auto;
+  padding: 0px 20px; }
+
+.large-number {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 64px;
+  color: #0F6ACE; }
+
+.small-number {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #798991;
+  line-height: 22px; }
+
+.how-works, .how-content, .numbers, .home-search-btn, h1, h2 {
+  text-align: center; }
+
+.cirle {
+  border: 3px solid #3CA44C;
+  padding-bottom: 20px; }
+
+::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, :-ms-input-placeholder {
+  color: #798991;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 20px;
+  text-overflow: ellipsis; }
+
+.home-search-btn {
+  background: #EA5E42;
+  border: 3px solid #F1623C;
+  border-radius: 100px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  display: block;
+  padding: 15px 0px;
+  width: 220px;
+  margin: 0px auto; }
+
+:-moz-placeholder {
+  /* Firefox 18- */ }
+
+::-moz-placeholder {
+  /* Firefox 19+ */ }
+
+.home-search-btn:hover, .contact-btn:hover {
+  background: transparent;
+  border: 3px solid #C64930; }
+
+.contact-btn {
+  margin: 0px 0px; }
+
+.icon {
+  padding: 0px 20px;
+  margin: 0; }
+  @media (max-width: 480px) {
+    .icon {
+      padding: 10px 0px; } }
+
+.how-icon {
+  margin: 0;
+  padding: 0; }
+
+.how-header {
+  font-size: 2em;
+  line-height: 300;
+  font-weight: #0F6ACE;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  padding-bottom: 20px;
+  margin: 10px 0px; }
+.how-body {
+  font-size: 1em;
+  line-height: 1.375em;
+  font-weight: 300;
+  color: #798991;
+  font-family: "Open Sans", sans-serif;
+  display: inline-block; }
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+h1 {
+  font-size: 3em;
+  line-height: 67px;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding: 130px 0px 0px 0px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0px auto; }
+  @media brk-narrow {
+    h1 {
+      padding: 20px 0px 10px 0px;
+      margin: 0px auto; } }
+
+h2 {
+  font-size: 3em;
+  line-height: 400;
+  font-weight: #0F6ACE;
+  padding: 80px 0px 0px 0px;
+  font-family: "Open Sans", sans-serif; }
+
+.subhead {
+  font-size: 1.5em;
+  line-height: 300;
+  font-weight: #FFFFFF;
+  text-align: center;
+  padding: 20px 0px;
+  margin: 0px auto; }
+
+p {
+  font-size: 1em;
+  line-height: 1.375em;
+  font-weight: 300;
+  color: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif; }
+
+.contact-us h2, p {
+  color: #FFFFFF;
+  text-align: left; }
+
+/*# sourceMappingURL=application.css.map */
