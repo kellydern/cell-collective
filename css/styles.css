@@ -20,6 +20,7 @@ ul, li {
     border-top: 5px solid #0F6ACE;
 }
 
+
 /* Fonts */ 
 
 h1 {
@@ -109,6 +110,9 @@ a:active {
 	display: inline-block;
 	float: right;
 }
+
+
+
 
 /* Search bar */
 .search-bar {
@@ -400,8 +404,8 @@ input[type="search"] {
 	}
 
 	.contact-btn {
-	margin: 0px auto;
-}
+		margin: 0px auto;
+	}
 
 	.subhead {
 		font-size: 1.2em;
@@ -422,9 +426,9 @@ input[type="search"] {
 	}
 
 	input[type="search"] {
-	color: #798991;
-    text-align: center;
-    padding-left: 15px;
+		color: #798991;
+	    text-align: center;
+	    padding-left: 15px;
 	}
 
 	form input[type=text] {
@@ -432,17 +436,17 @@ input[type="search"] {
 	}
 
 	::-webkit-input-placeholder {
-   color: #798991;
-   font-family: 'Open Sans', sans-serif;
-   text-overflow: ellipsis; 
-   text-align: center;
+	   color: #798991;
+	   font-family: 'Open Sans', sans-serif;
+	   text-overflow: ellipsis; 
+	   text-align: center;
 	}
 
 	:-moz-placeholder { /* Firefox 18- */
 	   color: #798991; 
 	   font-family: 'Open Sans', sans-serif; 
 	   text-overflow: ellipsis; 
-	    text-align: center;
+	   text-align: center;
 	}
 
 	::-moz-placeholder {  /* Firefox 19+ */
@@ -461,9 +465,9 @@ input[type="search"] {
 	/*nav */
 
 	.header-right {
-	display: block;
-	float: none;
-	text-align: center;
+		display: block;
+		float: none;
+		text-align: center;
 	}
 
 	h2 {
@@ -523,11 +527,11 @@ input[type="search"] {
 	}
 
 	ul.footer-content {
-    margin: 0px;
-    text-align: center;
-    position: relative;
-    display: block;
-    padding-bottom: 20px;
+	    margin: 0px;
+	    text-align: center;
+	    position: relative;
+	    display: block;
+	    padding-bottom: 20px;
 	}
 
 	.terms {
@@ -593,17 +597,17 @@ input[type="search"] {
 	}
 
 	input[type="search"] {
-	color: #798991;
-    text-align: center;
-    padding-left: 15px;
+		color: #798991;
+	    text-align: center;
+	    padding-left: 15px;
 	}
 
 	/*nav */
 
 	.header-right {
-	display: block;
-	float: none;
-	text-align: center;
+		display: block;
+		float: none;
+		text-align: center;
 	}
 
 	h2 {
@@ -663,10 +667,10 @@ input[type="search"] {
 	}
 
 	ul.footer-content {
-    margin: 0px;
-    text-align: center;
-    position: relative;
-    display: block;
+	    margin: 0px;
+	    text-align: center;
+	    position: relative;
+	    display: block;
 	}
 
 	.terms {
@@ -728,17 +732,17 @@ input[type="search"] {
 	}
 
 	input[type="search"] {
-	color: #798991;
-    text-align: center;
-    padding-left: 15px;
+		color: #798991;
+	    text-align: center;
+	    padding-left: 15px;
 	}
 
 	/*nav */
 
 	.header-right {
-	display: block;
-	float: none;
-	text-align: center;
+		display: block;
+		float: none;
+		text-align: center;
 	}
 
 	h2 {
@@ -792,10 +796,10 @@ input[type="search"] {
 	}
 
 	ul.footer-content {
-    margin: 0px;
-    text-align: center;
-    position: relative;
-    display: block;
+	    margin: 0px;
+	    text-align: center;
+	    position: relative;
+	    display: block;
 	}
 
 	.terms {
@@ -858,17 +862,17 @@ input[type="search"] {
 	}
 
 	input[type="search"] {
-	color: #798991;
-    text-align: center;
-    padding-left: 15px;
+		color: #798991;
+	    text-align: center;
+	    padding-left: 15px;
 	}
 
 	/*nav */
 
 	.header-right {
-	display: block;
-	float: none;
-	text-align: center;
+		display: block;
+		float: none;
+		text-align: center;
 	}
 
 	h2 {
@@ -922,10 +926,10 @@ input[type="search"] {
 	}
 
 	ul.footer-content {
-    margin: 0px;
-    text-align: center;
-    position: relative;
-    display: block;
+	    margin: 0px;
+	    text-align: center;
+	    position: relative;
+	    display: block;
 	}
 
 	.terms {
